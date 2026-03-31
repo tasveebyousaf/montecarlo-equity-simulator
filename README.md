@@ -49,7 +49,11 @@ Std deviation  : $112.45
 95% VaR floor  : $298.10
 Prob(profit)   : 68.40%
 ```
+## Results
 
+Here’s an example output from the Monte Carlo simulation:
+
+![Monte Carlo Simulation](monte_carlo_msft.png)
 ---
 
 ## Key Insights
