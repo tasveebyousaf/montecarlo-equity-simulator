@@ -16,7 +16,7 @@ This project downloads 3 years of MSFT historical price data, calibrates a Geome
 
 1. Open a new notebook at [colab.research.google.com](https://colab.research.google.com)
 
-2. Paste or upload `monte_carlo_msft.py` into a code cell and run it.
+2. Paste or upload `montecarlo_equity_simulator.ipynb` into a code cell and run it.
 
 ### 💻 Local Python
 
@@ -25,7 +25,7 @@ This project downloads 3 years of MSFT historical price data, calibrates a Geome
 pip install yfinance matplotlib numpy pandas
 
 # 2. Run
-python monte_carlo_msft.py
+python montecarlo_equity_simulator.ipynb
 ```
 
 **Python 3.9+** recommended.
@@ -86,7 +86,7 @@ pandas
 ## Project Structure
 
 ```
-monte_carlo_msft.py   ← single-file simulation (all logic + plots)
+montecarlo_equity_simulator.ipynb   ← single-file simulation (all logic + plots)
 monte_carlo_msft.png  ← generated chart (created on first run)
 README.md
 ```
